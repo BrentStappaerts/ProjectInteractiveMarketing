@@ -2,7 +2,7 @@
 body {
 	margin:0px;
 	padding:0px;
-	background-image: url('images/index.png');
+	background-image: url('../images/index.png');
 }
 
 #game-area {
