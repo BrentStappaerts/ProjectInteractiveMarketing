@@ -115,7 +115,7 @@ SNAKE.Snake = SNAKE.Snake || (function() {
             rowShift = [-1, 0, 1, 0],
             xPosShift = [],
             yPosShift = [],
-            snakeSpeed = 75,
+            snakeSpeed = 70,
             isDead = false;
         
         // ----- public variables -----
@@ -620,6 +620,7 @@ SNAKE.Board = SNAKE.Board || (function() {
             welcomeTxt.innerHTML = "MoreBlocks Game<p></p>Gerbuik de <strong>pijltjes</strong> om de game te besturen. " + fullScreenText + "<p></p>";
             var welcomeStart = document.createElement("button");
             welcomeStart.appendChild( document.createTextNode("Speel"));
+			
             
             var loadGame = function() {
                 SNAKE.removeEventListener(window, "keyup", kbShortcut, false);
