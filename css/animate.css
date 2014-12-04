@@ -60,6 +60,26 @@ h1.main,p.demos {
 	-ms-animation: blurFadeInOut 3s ease-in backwards;
 	animation: blurFadeInOut 3s ease-in backwards;
 }
+.sp-container h3 {
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 500px;
+
+	-webkit-animation: blurFadeIn 3s ease-in backwards;
+	-moz-animation: blurFadeIn 3s ease-in backwards;
+	-ms-animation: blurFadeIn 3s ease-in backwards;
+	animation: blurFadeIn 3s ease-in backwards;
+}
+.sp-container h4 {
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 850px;
+
+	-webkit-animation: blurFadeIn 3s ease-in backwards;
+	-moz-animation: blurFadeIn 3s ease-in backwards;
+	-ms-animation: blurFadeIn 3s ease-in backwards;
+	animation: blurFadeIn 3s ease-in backwards;
+}
 .sp-container h2.frame-1 {
 	-webkit-animation-delay: 0s;
 	-moz-animation-delay: 0s;
@@ -78,60 +98,27 @@ h1.main,p.demos {
 	-ms-animation-delay: 6s;
 	animation-delay: 6s;
 }
-
-
-
-
-
-.sp-globe {
-	position: absolute;
-	width: 282px;
-	height: 273px;
-	left: 50%;
-	top: 50%;
-	margin: -137px 0 0 -141px;
-	background: transparent url(http://web-sonick.zz.mu/images/sl/globe.png) no-repeat top left;
-	-webkit-animation: fadeInBack 3.6s linear 14s backwards;
-	-moz-animation: fadeInBack 3.6s linear 14s backwards;
-	-ms-animation: fadeInBack 3.6s linear 14s backwards;
-	animation: fadeInBack 3.6s linear 14s backwards;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
-	filter: alpha(opacity=30);
-	opacity: 0.3;
-	-webkit-transform: scale(5);
-	-moz-transform: scale(5);
-	-o-transform: scale(5);
-	-ms-transform: scale(5);
-	transform: scale(5);
+.sp-container h3.frame-4 {
+	-webkit-animation-delay: 9s;
+	-moz-animation-delay: 9s;
+	-ms-animation-delay: 9s;
+	animation-delay: 9s;
 }
-.sp-circle-link {
-	position: absolute;
-	left: 50%;
-	bottom: 100px;
-	margin-left: -50px;
-	text-align: center;
-	line-height: 100px;
-	width: 100px;
-	height: 100px;
-	background: #fff;
-	color: #3f1616;
-	font-size: 25px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-	-webkit-animation: fadeInRotate 1s linear 9s backwards;
-	-moz-animation: fadeInRotate 1s linear 9s backwards;
-	-ms-animation: fadeInRotate 1s linear 9s backwards;
-	animation: fadeInRotate 1s linear 9s backwards;
-	-webkit-transform: scale(1) rotate(0deg);
-	-moz-transform: scale(1) rotate(0deg);
-	-o-transform: scale(1) rotate(0deg);
-	-ms-transform: scale(1) rotate(0deg);
-	transform: scale(1) rotate(0deg);
+.sp-container h4.frame-5 {
+	-webkit-animation-delay: 9s;
+	-moz-animation-delay: 9s;
+	-ms-animation-delay: 9s;
+	animation-delay: 9s;
 }
-.sp-circle-link:hover {
-	background: #85373b;
-	color: #fff;
+
+
+
+
+
+
+.image:hover {
+	background: #C1240A;
+
 }
 /**/
 @-webkit-keyframes blurFadeInOut{
